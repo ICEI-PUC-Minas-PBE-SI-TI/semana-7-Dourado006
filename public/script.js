@@ -1,39 +1,39 @@
-// 1. Dados iniciais
+// dados iniciais
 let nome = prompt("Qual é o seu nome?");
 
-// Validação da Renda Mensal
+// renda
 let renda = Number(prompt("Informe sua renda mensal:"));
 while (isNaN(renda) || renda <= 0) {
     renda = Number(prompt("Valor inválido! Por favor, digite um número para sua renda:"));
 }
 
-// Validação da Quantidade de Despesas
+// despesas
 let qtdDespesas = Number(prompt("Quantas despesas você quer informar? (Limite de 1 a 5)"));
 while (isNaN(qtdDespesas)) {
     qtdDespesas = Number(prompt("Por favor, digite um número válido para a quantidade:"));
 }
 
-// Regra de limite (Clamp) entre 1 e 5
+// limite desp.
 if (qtdDespesas < 1) {
     qtdDespesas = 1;
 } else if (qtdDespesas > 5) {
     qtdDespesas = 5;
 }
 
-// 2. Lançamento de despesas com FOR
+// 2. lançamento desp
 let totalDespesas = 0;
 
 for (let i = 1; i <= qtdDespesas; i++) {
     let valorDespesa = Number(prompt("Digite o valor da despesa " + i + ":"));
 
-    // Validação de número dentro do for
+    // Validação de número 
     while (isNaN(valorDespesa)) {
         valorDespesa = Number(prompt("Valor inválido! Digite o número da despesa " + i + ":"));
     }
     totalDespesas += valorDespesa;
 }
 
-// 3. Análise com IF / ELSE
+// IF / ELSE
 let mensagemClassificacao = "";
 let sobra = renda - totalDespesas;
 
@@ -48,7 +48,7 @@ if (totalDespesas > renda) {
     }
 }
 
-// 4. Saída Final (Alert e Console)
+// Saída Final (Alert e Console)
 let resultadoFinal = `
 --- RESULTADO DO ORÇAMENTO ---
 Usuário: ${nome}
