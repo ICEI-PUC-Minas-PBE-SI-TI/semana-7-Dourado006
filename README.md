@@ -9,7 +9,7 @@ Nesta atividade, você dará os primeiros passos com JavaScript, explorando na p
 
 ## Print do console do navegador
 
-![alt text](image.png)
+<img width="1857" height="927" alt="image" src="https://github.com/user-attachments/assets/569dc479-4ad9-4c9d-af72-87a4c91de0df" />
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo responsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
