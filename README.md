@@ -4,12 +4,12 @@ Nesta atividade, você dará os primeiros passos com JavaScript, explorando na p
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
+- Nome: Victor Reis Dourado Pordeus
+- Matrícula: 907213
 
 ## Print do console do navegador
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo responsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
